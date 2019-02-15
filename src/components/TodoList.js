@@ -11,8 +11,9 @@ class TodoList extends Component {
                 {props.todos.map(todo => 
                     <Todo 
                         key={todo.id}
-                        {...todo}
-                    />
+                        {...todo}   
+                    >
+                    </Todo>
                 )}
             </ul>
         );
